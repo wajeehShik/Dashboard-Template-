@@ -1,0 +1,58 @@
+صور كويسه تخلي تصميم فخم
+
+https://www.youtube.com/watch?v=BocRv9Pp83I&list=PLDoPjvoNmBAyGaRGzPVZCkYx5L7Mo9Tbh&index=17
+==========حلقة 3 =============================
+2:27
+ليش ضاف position:relative في sidebar
+عشان شغل content هيجي نظام طبقات
+==========حلقة 4 =============================
+في متغير من مكتبه font asome
+  font-family: var(--fa-style-family-classic);
+
+
+
+اخفاء placeholder لما يضغط علي نص
+.content .search input:focus::placeholder{
+opacity: 0;
+}
+==========حلقة 5 =============================
+تحكم بscroll
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--blue-alt-color);
+}
+
+
+===================11 حلقة================================
+علي قد المحتوي يكون
+    width:fit-content;
+
+
+
+
+============حلقة 18================
+موقع brandcolor
+بجيبلك الوان الخاصه براندات
+https://brandcolors.net/
+
+
+
+/* عشان عناصر ما دخلش في بعض في الجدول  */
+.projects table{
+    min-width: 1000px;
+}
+
+لازم تعمل لكل محتوي في body
+overflow: hidden;
+
+
+
+وصلنا لحلقه20
